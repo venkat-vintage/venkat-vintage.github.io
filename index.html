@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./script/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/svg" href="./images/vintage_ico.ico">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
             <div class="top_grid">
                 <div class="top_gridleft">
                     <span><i class="bi bi-geo-alt"></i>24 Olive Street, Prairie, NY 53590</span>
-                    <span><i class="bi bi-envelope"></i>whitecollar@gmail.com</span>
+                    <span><i class="bi bi-envelope"></i>vintage@gmail.com</span>
                 </div>
                 <div class="top_gridright"><span><i class="bi bi-clock"></i>Mon - Fri: 8:00 am - 5:00 pm</span>
                     <span>
@@ -42,22 +43,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto tab_nav">
                     <li class="drop_head">
-                        Home
+                      <a href="#">Home</a>
                     </li>
                     <li class="drop_head">
-                        Link
+                        <a href="about.html">About Us</a>
                     </li>
                     <li class="drop_head_menu">
-                        Dropdown
+                       <a href="#">Pages</a>
                         <div class="draop_head_submenu">
-                            <p><a class="dropdown_item" href="#">Action</a></p>
-                            <p><a class="dropdown_item" href="#">Another action</a></p>
+                            <p><a class="dropdown_item" href="debut_management.html">Debt  Management</a></p>
+                            <p><a class="dropdown_item" href="due_diligence.html">Due Diligence</a></p>
                             <p><a class="dropdown_item" href="#">Something else here</a></p>
                         </div>
                     </li>
                     <li class="drop_head">
-                        Dissabled
+                       <a href="#">Projects</a>
                     </li>
+                    <li class="drop_head">
+                        <a href="contact_us.html">Contact Us</a>
+                     </li>
                 </ul>
             </div>
             <div>
@@ -65,7 +69,7 @@
             </div>
         </div>
     </nav>
-    <section>
+    <section id="section_one">
         <div class="container-fluid px-0">
             <div class="section_one">
                 <div class="section_oneleft back_left">
@@ -84,12 +88,12 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container-fluid">
+    <section class="padd_one" id="section_two">
+        <div class="container-fluid px-0">
             <div class="section_one">
                 <div class="section_twoleft">
-                    <img src="./images/Images.png">
-                    <h3>Make Better Decisions With Vintage Solution</h3>
+                    <img src="./images/better_solution.jpg">
+                    <h3>Make Better Decisions With White Collar Services</h3>
                     <p>Overcome challenges and grasp opportunities in this era of the transformation of corporate
                         business sector with us.</p>
                     <a href="#">Get in Touch</a>
@@ -119,7 +123,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="padd_one" id="section_three">
         <div class="container-fluid client_pad">
             <h1>Our Esteemed Clients</h1>
             <div class="d-flex flex-wrap align-items-center justify-content-around">
@@ -150,7 +154,7 @@
             </div>
         </div>
     </section>
-    <section class="padd">
+    <section class="padd_one" id="section_four">
         <div class="container">
             <div class="expert">
                 <div class="hero_p">
@@ -166,7 +170,7 @@
                             </div>
                             <div class="expert_circle"><i class="bi bi-credit-card"></i></div>
                         </div>
-                        <a href="#">View details</a>
+                        <a href="debut_management.html">View details</a>
                     </div>
                     <div class="expert_box">
                         <div class="d-flex justify-content-between">
@@ -175,13 +179,13 @@
                             </div>
                             <div class="expert_circle"><i class="bi bi-person-fill"></i></div>
                         </div>
-                        <a href="#">View details</a>
+                        <a href="due_diligence.html">View details</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="padd">
+    <section class="padd" id="section_five">
         <div class="section_one">
             <div class="choose_left">
                 <div class="hero_p">
@@ -191,7 +195,7 @@
                 <h1>Our Core Values Provide Solutions To Your Business</h1>
                 <p>We focus on your journey as well as your destination caring about your team and your business as if
                     it were our own we can deliver.</p>
-                <div class="d-flex flex-wrap justify-content-between mt-4">
+                <div class="card_grid mt-4">
                     <div class="progres d-flex">
                         <div class="progres_circle">95%</div>
                         <div>
@@ -207,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-wrap highlight justify-content-between mt-4">
+                <div class="point_grid mt-4">
                     <div class="pros"><i class="bi bi-check-circle-fill"></i><span
                             class="font-weight-bold">2800+</span><span>Active clients</span></div>
                     <div class="pros"><i class="bi bi-check-circle-fill"></i><span
@@ -219,7 +223,7 @@
             <div class="choose_right"></div>
         </div>
     </section>
-    <section class="padd">
+    <section class="padd" id="section_six">
         <div class="container">
             <div class="tetimonial_grid">
                 <div class="testfy">
@@ -249,18 +253,37 @@
                     </div>
                 </div>
                 <div class="testimony">
-                    <div>
-                        <p class="font-weight-bold mb-0">Lisa Daniel</p>
-                        <p>Designer</p>
+                    <div class="d-flex">
+                        <div class="img_test"><i class="bi bi-person-fill"></i></div>
+                        <div>
+                            <p class="font-weight-bold mb-0">Daniel Lisa</p>
+                            <p>Designer</p>
+                        </div>
                     </div>
                     <div>
                         <p>“ I thank the team for the hard work, dedication, and enthusiasm.</p>
                     </div>
                 </div>
+                <div class="testimony">
+                    <div class="d-flex">
+                        <div class="img_test"><i class="bi bi-person-fill"></i></div>
+                        <div>
+                            <p class="font-weight-bold mb-0">Lisa Daniel</p>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>“ I thank the team for the hard work, dedication, and enthusiasm.
+                            It was outstanding setting up a managed services center to support our IT infrastructure
+                            on
+                            AWS, thereby proactively and addressing resolving.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="sec_padd_one">
+    <section class="sec_padd_one" id="section_seven">
         <div class="container">
             <div class="section_two">
                 <div class="section_threeleft">
@@ -272,7 +295,7 @@
                     <p>We strive to lead and sustain excellence. Most importantly, this means an unwavering commitment
                         to professional development and personal growth for our people.</p>
                     <div class="work_box">
-                        <div class="d-flex justify-content-center">
+                        <div class="card_grid ">
                             <div class="progres_circleone">562+ projects</div>
                             <div>
                                 <p>We have <span class="font-weight-bold">50+</span> years of experience. We offer <span
@@ -322,7 +345,7 @@
             </div>
         </div>
     </section>
-    <section class="team_sec">
+    <section class="team_sec" id="section_eight">
         <div class="team_div">
             <div class="team_our">
                 Our Team
@@ -333,31 +356,31 @@
         <div class="container">
             <div class="footer_grid">
                 <div>
-                    <img src="./images/logo.svg">
+                    <img src="./images/logo_white.svg">
                 </div>
                 <div class="footer_icon">
-                    <div class="d-flex">
-                        <div class="icon_circle"><i class="bi bi-geo-alt"></i></div>
+                    <div class="d-flex align-items-center">
+                        <div class="icon_circle"><i class="bi bi-telephone"></i></div>
                         <div>
-                            <p>Call Us</p>
+                            <p class="font-weight-bold">Call Us</p>
+                            <p>+01 569 896 654</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_icon ">
+                    <div class="d-flex align-items-center">
+                        <div class="icon_circle"><i class="bi bi-envelope"></i></div>
+                        <div>
+                            <p class="font-weight-bold">Mail Us</p>
                             <p>+01 569 896 654</p>
                         </div>
                     </div>
                 </div>
                 <div class="footer_icon">
-                    <div class="d-flex">
+                    <div class="d-flex align-items-center">
                         <div class="icon_circle"><i class="bi bi-geo-alt"></i></div>
                         <div>
-                            <p>Call Us</p>
-                            <p>+01 569 896 654</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_icon">
-                    <div class="d-flex">
-                        <div class="icon_circle"><i class="bi bi-geo-alt"></i></div>
-                        <div>
-                            <p>Call Us</p>
+                            <p class="font-weight-bold">Location</p>
                             <p>+01 569 896 654</p>
                         </div>
                     </div>
@@ -371,10 +394,10 @@
                     </div>
                     <ul class="list-unstyled footer_ul">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact_us.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer_width">
@@ -395,8 +418,13 @@
                         <p>Our Newsletter</p>
                         <p><span>Subscribe to our blog and newsletters to receive insights and
                                 updates</span></p>
-                        <input class="text new_user" placeholder="Your Email">
-                        <input type="submit" class="fott_submit" value="Submit" data-wait="Please wait...">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control new_user" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn footer_submit" type="button">Submit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -420,6 +448,7 @@
         </div>
 
     </footer>
+    
     <script src="./script/lib/jquery/dist/jquery.min.js"></script>
     <script src="./script/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
