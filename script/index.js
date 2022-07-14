@@ -23,4 +23,16 @@ $(document).ready(function () {
         }, 500);
         e.preventDefault()
     });
+    $("#gall").click(function (e) {
+        $('html, body').animate({
+            scrollTop: $("#gallery").offset().top
+        }, 500);
+        e.preventDefault()
+    });
+    $("#get_contact").click(function (e) {
+        $('html, body').animate({
+            scrollTop: $("#contact_us").offset().top
+        }, 500);
+        e.preventDefault()
+    });
 })
