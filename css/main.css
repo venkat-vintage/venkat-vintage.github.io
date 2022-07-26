@@ -748,6 +748,15 @@
 .point_grid a:hover {
   color: #26247b;
 }
+.para_container{
+  width: 80%;
+}
+.para_padd{
+  padding-left: 8rem;
+}
+.seven_padd_contain{
+  width: 86%!important;
+}
 
 .footer_grid img {
   width: 12%;
@@ -1042,7 +1051,9 @@
     border-radius: .3rem;
     padding: 3rem 0;
 }
-
+.email_side{
+  margin-left: 4.8rem;
+}
 
 @media screen and (max-width: 320px) and (max-width: 375px) {
   .expert_div .section_main .chennai, .expert_div .section_main .bangalore{
@@ -1754,6 +1765,9 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .seven_padd_contain {
+    width: 92%!important;
+}
   .section_one .section_oneleft h1 {
     font-size: 40px;
   }
@@ -1829,13 +1843,16 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1280px) {
+  .seven_padd_contain {
+    width: 95%!important;
+}
 
   .section_one .section_oneleft h1 {
     font-size: 40px;
   }
   .expert_div .back_left {
     padding: 5rem;
-    padding-left: 3.5rem;
+    padding-left: 1.5rem;
   }
   .gall .section_onerightone {
     padding-left: 4rem !important;
@@ -1896,6 +1913,9 @@
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1440px) {
+  .seven_padd_contain {
+    width: 91%!important;
+}
   .gall .section_onerightone {
     padding-left: 5rem !important;
   }
@@ -1940,6 +1960,9 @@
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1600px){
+  .seven_padd_contain {
+    width: 91%!important;
+}
   .due_grid {
     grid-gap: 10px;
 }
